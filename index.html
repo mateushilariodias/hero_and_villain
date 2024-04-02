@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="app">
+    <div class="character">
+        <div class="health-bar">{{ hero.health }}%</div>
+        <div class="sprite">Character's figure</div>
+        <h1>Hero</h1>
+        <div class="actions">
+            <button @click="attack(true)">Attack</button>
+            <button @click="defend(true)">Defend</button>
+            <button @click="usePotion(true)">Use Potion</button>
+            <button @click="run(true)">Run</button>
+        </div>
+    </div>
+    <div class="character">
+        <div class="health-bar">{{ villain.health }}%</div>
+        <div class="sprite">Character's figure</div>
+        <h1>Villain</h1>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
