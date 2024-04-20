@@ -1,6 +1,7 @@
 ## História:
 
 Em um mundo mágico e perigoso, o herói se aventura em uma missão épica para salvar o reino da escuridão que ameaça consumi-lo. No caminho, ele encontra o terrível vilão, um ser sombrio determinado a mergulhar o mundo na eterna escuridão. O destino do reino repousa nos ombros do herói, que deve enfrentar desafios e perigos inimagináveis para triunfar sobre o mal.
+(A última versão foi alterada para a história do clube das winx, trazendo as alterações para o código e a documentação aos poucos.)
 
 ---
 
