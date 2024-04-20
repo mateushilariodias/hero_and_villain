@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,15 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="app">
     <div class="character">
         <div class="health-bar">{{ hero.health }}%</div>
-        <div class="sprite">Character's figure</div>
+        <div class="sprite">
+            <img class="sprite"
+                src="https://img.elo7.com.br/product/main/41D8128/painel-redondo-winx-temas-de-festa-infantil.jpg"
+                alt="Hero Image">
+        </div>
         <h1>Hero</h1>
         <div class="actions">
             <button @click="attack(true)">Attack</button>
@@ -21,9 +27,17 @@
     </div>
     <div class="character">
         <div class="health-bar">{{ villain.health }}%</div>
-        <div class="sprite">Character's figure</div>
+        <div class="sprite">
+            <img class="sprite" src="https://img.quizur.com/f/img6080a68e81c776.60725329.jpg?lastEdited=1619043997"
+                alt="Villain Image">
+        </div>
         <h1>Villain</h1>
     </div>
+    <div v-if="gameOver" class="result">
+        <h2>Game Over!</h2>
+        <p>{{ winner }} wins!</p>
+    </div>
 </body>
+
 </html>
 <script src="script.js"></script>

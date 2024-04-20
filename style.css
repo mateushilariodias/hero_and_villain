@@ -32,14 +32,14 @@ button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #800080; /* alterado para roxo */
+    background-color: #800080; 
     color: #ffffff;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 button:hover {
-    background-color: #1c1c3c; /* alterado para um tom mais escuro de roxo */
+    background-color: #1c1c3c; 
 }
 
 button:active {
@@ -48,7 +48,7 @@ button:active {
 
 .health-bar {
     height: 30px;
-    background-color: #00bfff; /* alterado para azul claro */
+    background-color: #00bfff; 
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -60,6 +60,15 @@ button:active {
 .sprite {
     height: 100px;
     margin-bottom: 20px;
-    background-color: #dddddd; /* alterado para cinza claro */
+    background-color: #dddddd; 
     border-radius: 5px;
+}
+
+.result {
+    background-color: #ffffff;
+    border: 2px solid #e60a0a;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 200px;
 }
